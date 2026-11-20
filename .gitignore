@@ -1,0 +1,49 @@
+# CMake build directories
+/build/
+/cpp/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# Python package local files. Shipped binaries stay in /lib/<platform>/.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# CMake and Ninja generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+Testing/
+
+# Compiler and coverage outputs
+*.o
+*.obj
+*.lo
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+.cache/
+core
+core.*

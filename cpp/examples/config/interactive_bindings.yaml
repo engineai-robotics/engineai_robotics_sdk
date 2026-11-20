@@ -1,0 +1,14 @@
+# Local key map for interactive_action_trigger.
+# Actions refer to the YAML files already in examples/config/<model>/.
+# wave -> motion_plan_wave_hands.yaml (pm01, t800; t800pro has no wave file)
+# handshake -> motion_plan_shake_hand.yaml
+# reset -> motion_plan_reset.yaml
+# Space / Y cancel and Esc / Start quit are fixed in the program.
+keyboard:
+  "1": wave
+  "2": handshake
+  "3": reset
+gamepad:
+  a: wave
+  b: handshake
+  x: reset
